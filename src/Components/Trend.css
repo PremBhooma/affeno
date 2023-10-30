@@ -1,0 +1,68 @@
+/* slideBar (Trend)  start*/
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card img {
+  width: 330px;
+  height: 350px;
+  object-fit: cover;
+  border: 1px solid #4f4f4f;
+}
+.card {
+  margin: 0 4px;
+  border: none;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card-text:last-child {
+  color: #ff5604;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* .carousel-inner {
+  padding: 1em;
+} */
+.carousel-control-prev,
+.carousel-control-next {
+  position: relative;
+  background-color: #ff5604;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* @media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+} */
+
+.slideButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}

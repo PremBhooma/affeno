@@ -121,3 +121,39 @@
   height: 500px;
   object-fit: cover;
 }
+
+/* section marging  */
+
+.mbt {
+  width: 90%;
+  margin: 50px auto;
+}
+
+/* title for All */
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.title > p:nth-child(1) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title > p:nth-child(2) > a {
+  color: #ff5604;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
