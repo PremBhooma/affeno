@@ -157,3 +157,265 @@
   line-height: normal;
   text-decoration-line: underline;
 }
+
+/* In Demand Start CSS */
+
+.demandBlock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.demandBoxes > img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.demandBoxes > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #1d1d1d;
+  padding: 25px 25px;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+}
+
+.demandBoxes > div > p:nth-child(1) {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.demandBoxes > div > p:nth-child(2) {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.demandBoxes > div > p:nth-child(3) {
+  font-size: 18px;
+  font-weight: 500;
+  width: 68%;
+}
+
+/* Sale Poster start */
+
+.salePoster {
+  margin: 100px 0;
+}
+.salePoster > img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
+/* Dual Sale Poster start */
+
+.dualSalePoster {
+  margin: 100px 0;
+}
+.dualSalePoster > div > img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
+/* Beauty Products Start Css */
+
+.beautyProductsBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 45px;
+}
+
+.beautyProductsBoxes > img {
+  width: 307px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.beautyProductsInnerBox2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.beautyProductsInnerBox2 > p:nth-child(1) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.beautyProductsInnerBox2 > p:nth-child(2) {
+  color: #0f1111;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.rating > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  color: #f2b400;
+}
+
+.rating > div > p > i {
+  font-size: 25px;
+}
+
+.rating > p:nth-child(2) {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 66.667% */
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.price > p:nth-child(1) {
+  color: #151515;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.price > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.price > div > p {
+  color: #565959;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.price > div > p:nth-child(2) {
+  text-decoration: line-through;
+}
+
+.off {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.off > p:nth-child(1) {
+  padding: 7px 6px;
+  border-radius: 2px;
+  background: #ff5604;
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+
+.off > p:nth-child(2) {
+  color: #ff5604;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+
+/* Fashion Start CSS */
+
+.fashionBlock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+}
+
+.fashionInnerBox1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.fashionInnerBox1 > p {
+  padding: 7px 6px;
+  border-radius: 2px;
+  background: #ff5604;
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+
+.fashionInnerBox1 > img {
+  width: 120px;
+  height: 365px;
+  /* object-fit: cover; */
+}
+
+.fashionInnerBox2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+}
+
+.fashionInnerBox2 > p:nth-child(1) {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.fashionInnerBox2 > p:nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.fashionInnerBox2 > div:nth-child(3) > p {
+  color: #ff5604;
+}
