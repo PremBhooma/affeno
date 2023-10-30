@@ -1,0 +1,123 @@
+.desktopNav {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Nav CSS STart */
+
+.topNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  padding: 15px 0;
+  gap: 40px;
+}
+
+.topNav > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+.topNav > div:nth-child(1) > div:nth-child(1) > img {
+  width: 76px;
+  height: 60px;
+}
+
+.topNav > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  color: rgba(79, 79, 79, 0.6);
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.topNav > div:nth-child(2) > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #000;
+}
+
+.topNav > div:nth-child(1) > div:nth-child(2) > input {
+  border-radius: 39px 0px 0 39px;
+  background: #d9d9d9;
+  padding: 5px;
+  border: none;
+}
+
+.topNav > div:nth-child(1) > div:nth-child(2) > button {
+  border-radius: 0px 39px 39px 0px;
+  background: #ff5604;
+  padding: 5px;
+  border: none;
+}
+
+.logoName {
+  color: #ff5604;
+  font-family: Lora;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.viewAcc {
+  color: rgba(79, 79, 79, 0.6);
+  font-family: Lora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Bottom Nav CSS Start */
+
+.bottomNav {
+  padding: 10px 0;
+
+  background-color: #1d1d1d;
+}
+
+.bottomNav > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.bottomNav > div > p > a {
+  text-decoration: none;
+
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Banner CSS Start */
+
+.bannerImg {
+  height: 500px;
+  object-fit: cover;
+}
