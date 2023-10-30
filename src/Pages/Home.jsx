@@ -2,13 +2,14 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Banners from "../Components/Banners";
 import Trend from "../Components/Trend";
-import { Link } from "react-router-dom";
 import InDemand from "../Components/InDemand";
-
-import "./Home.css";
 import BeautyProducts from "../Components/BeautyProducts";
 import TastedProducts from "../Components/TastedProducts";
 import Fashion from "../Components/Fashion";
+import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
+
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -139,6 +140,18 @@ const Home = () => {
           src="https://s3-alpha-sig.figma.com/img/b987/7d19/6c0f0bfe13af7ed90d162935e3753674?Expires=1699833600&Signature=YkZ5L1Cz1TEjaOmv4Fi4g2X2Kw6hnoyRwYAzCzDULwU9wCz-4yc8ZkxPfYD-Y427iUW0U9x5NK9hHcfI8nPi5sUwUJoczr2eltaT6HDzxCeqx4LFfQOZZ8ohULG01pOk6hzATd~YpMkBNaK-A5BI66pn2OE4cDgXX4XA1zuTCc1t8YJ9r~qFSRDjcSbJ7r~CI-3DwYvrRpZ8rdapispIhfnPQS5OuK~VyW2baAVJq3uTa87zak-QviyhBTHGYoi1a37B-HPRP6FQsFj-p7I0LYzMniIqlvquOqqw2o0fCogFjWD7f-sqgFpZO~2ExKHAhtgcDlTb79uIdecTVEwFuw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
           alt=""
         />
+      </div>
+
+      {/* Social Media */}
+      <div className="mbt">
+        <div className="socialMedia">
+          <input type="text" placeholder="Please enter you email to join us" />
+        </div>
+      </div>
+
+      {/* Footer */}
+      <div className="mb">
+        <Footer />
       </div>
     </>
   );

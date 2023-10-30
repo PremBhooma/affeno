@@ -419,3 +419,64 @@
 .fashionInnerBox2 > div:nth-child(3) > p {
   color: #ff5604;
 }
+
+/* social Media */
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.socialMedia > input {
+  color: #263238;
+  text-align: right;
+  font-family: Lora;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+
+/* Footer start */
+
+.mb {
+  padding: 20px;
+  background-color: #1d1d1d;
+}
+.footerBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: 40px auto;
+}
+.footerBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  font-family: Lora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footerPar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  font-weight: 500;
+}
+
+.lowFoot {
+  color: #fff;
+  font-family: Lora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
