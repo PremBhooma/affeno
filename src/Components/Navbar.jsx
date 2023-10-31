@@ -54,13 +54,13 @@ const Navbar = () => {
         <div className="bottomNav">
           <div>
             <p>
-              <Link>Home</Link>
+              <Link to={"/"}>Home</Link>
             </p>
             <p>
-              <Link>About Us</Link>
+              <Link to={"/about"}>About Us</Link>
             </p>
             <p>
-              <Link>Category</Link>
+              <Link to={"/categories"}>Category</Link>
             </p>
             <p>
               <Link>Collections</Link>

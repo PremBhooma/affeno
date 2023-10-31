@@ -1,0 +1,110 @@
+.aboutBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.abtTitle {
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.abtPara {
+  color: #4f4f4f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contactBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 90px;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.contactInnerBox1 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.contactInnerBox1 > div > p > i {
+  color: #ff5604;
+  font-size: 30px;
+}
+
+.pop {
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contactInnerBox1 > img {
+  width: 498px;
+  height: 312px;
+  border-radius: 20px;
+  border: 1px solid #ff5604;
+}
+
+.contactInnerBox2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contactInnerBox2 > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+.contactInnerBox2 > div:nth-child(1) > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactInnerBox2 > div:nth-child(1) > div:nth-child(1) > p > i {
+  color: #ff5604;
+  font-size: 32px;
+}
+
+.contactInnerBox2 > div:nth-child(2) > p {
+  color: #ff5604;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 25px 0;
+}
+
+.sclIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  color: #4ec0ca;
+  font-size: 55px;
+}

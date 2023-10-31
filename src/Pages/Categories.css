@@ -1,0 +1,79 @@
+.catBoxes1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.catBoxes1 > div > a > img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+
+.catBoxes1 > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #1d1d1d;
+  padding: 25px 25px;
+}
+
+.catBoxes1 > div > div > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/* CatBox 2 */
+
+.catBoxes2 {
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr);
+  place-items: center; */
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.catBoxes2 > div > a > img {
+  width: 443px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.catBoxes2 > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #1d1d1d;
+  padding: 25px 25px;
+}
+
+.catBoxes2 > div > div > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.catSubTitle {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.catPara {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.catPara1 {
+  font-size: 24px;
+  font-weight: 500;
+  width: 90%;
+}

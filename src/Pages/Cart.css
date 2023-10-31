@@ -1,0 +1,125 @@
+.cartBoxes {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.vl {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.Singlebox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.cartInnerLeftBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.cartInnerLeftBox > div:nth-child(1) > img {
+  width: 240px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.cartInnerLeftBox > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tandadd {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cartInnerLeftBox > div:nth-child(2) > p:nth-child(2) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ratingCart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.ratingCart > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  color: #f2b400;
+}
+
+.ratingCart > div > p > i {
+  font-size: 40px;
+}
+
+.ratingCart > p:nth-child(2) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cartInnerRightBox {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cartInnerRightBox > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  color: #fd4043;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cartInnerRightBox > div:nth-child(2) > button {
+  width: 100%;
+  background: #ff5604;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+  border: none;
+}
+
+.recItem > p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 50px 0;
+}
