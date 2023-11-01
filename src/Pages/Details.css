@@ -1,0 +1,273 @@
+.detailsBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.detailsLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 40%;
+}
+
+.detailsLeft > p:nth-child(1) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detailsStreet {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detailsP {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detailsStreet > input {
+  padding: 12px 0;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 5px solid red;
+  outline: none; /* Remove the focus outline */
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detailsStreet > input::placeholder {
+  color: #000;
+}
+
+.detailsStreet > input:focus::placeholder {
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detailsPlace {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.detailsPlace > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detailsPlace > div > input {
+  border: none;
+  border-bottom: 5px solid red;
+  outline: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detailsPlace > div > input::placeholder {
+  color: #000;
+}
+
+.detailsPlace > div > input:focus::placeholder {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detailsCheck {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Increase the checkbox size */
+.detailsCheck input[type="checkbox"] {
+  transform: scale(2.5);
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+/* Optional: Style the label text when the checkbox is checked */
+.detailsCheck input[type="checkbox"]:checked + label {
+  color: #ff5733; /* Change the color when the checkbox is checked */
+}
+
+/* Right Side */
+
+.detailsRight {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detailsTop {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+  background: #eee;
+}
+
+.detailsPofi {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.detailsPofi > img {
+  width: 245px;
+  height: 272px;
+  object-fit: cover;
+}
+.detailsPofi > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detailsPofi > div > p:nth-child(1) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detailsPofi > div > p:nth-child(2) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detailsCount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.detailsCount > p:nth-child(1),
+.detailsCount > p:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 38px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.detailsCount > p:nth-child(2) {
+  color: #4f4f4f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.detailsTop > p:nth-child(2) {
+  color: #7a7a7a;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.detailsTop > p:nth-child(3) {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+  color: #646464;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.detailsTop > p:nth-child(4) {
+  color: #ff5604;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detailsCoupon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detailsCoupon > p:nth-child(1) {
+  text-align: center;
+  color: rgba(79, 79, 79, 0.8);
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 20px;
+  border: 3.5px dashed #4f4f4f;
+}
+
+.detailsCoupon > p:nth-child(2) {
+  color: #868686;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.detailsBottom > button {
+  width: 100%;
+  background: #ff5604;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}

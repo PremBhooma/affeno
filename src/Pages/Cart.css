@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 70px;
+  margin: 50px 0;
 }
 
 .vl {
@@ -112,6 +113,12 @@
   line-height: normal;
   padding: 10px;
   border: none;
+}
+
+.clcsvg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .recItem > p {

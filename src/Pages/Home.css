@@ -205,7 +205,16 @@
 .salePoster {
   margin: 100px 0;
 }
+.salePosterCollection {
+  margin: 50px 0;
+}
 .salePoster > img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
+.salePosterCollection > img {
   width: 100%;
   height: 330px;
   object-fit: cover;
@@ -490,6 +499,17 @@
 
 .mTitle > p {
   color: #4ec0ca;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 80px;
+}
+
+.mTitleCollections > p {
+  color: #000;
   text-align: center;
   font-family: Roboto;
   font-size: 48px;

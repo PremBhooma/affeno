@@ -68,14 +68,14 @@ const Categories = () => {
           {/* CatBox2 */}
           <div className="catBoxes2">
             <div>
-              <Link>
+              <Link to={"/homeandkitchen"}>
                 <img
                   src="https://s3-alpha-sig.figma.com/img/aa5a/5fd9/6ef17e9bbb17697ecd52d5451bee1dbd?Expires=1699833600&Signature=ip6F0Bz5CKSE4~febDbwtnTe639QqKep~ZjoCbYrU3aAGtlm9AjJbr40hDIlcfT2HjVzYUn4aQHVB8H2Lo4dufwfycaJXeoAVH378SOHZpvCL3t9iAd4eM7lAES382owxi72zj22mN7n5zZC~aJZ40KB7ZVrtBC4h6cDboevqPPCy2on7CmckuL95PGofEx6I3gjukFeUEAABj1AnfJK-Qj1FOX~jANezvaXUqXdQth4zANsxkm~O1BLyZ6jCRo4UZulI06QXrVdCbdOPAlT9CephTCyVoCvew~oCdIP~~5M-D~MtXnyWLvAeViNAEl91w3XinSUq2whle~ZUxN1RA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
                   alt=""
                 />
               </Link>
               <div>
-                <Link>
+                <Link to={"/homeandkitchen"}>
                   <p className="catSubTitle">HOME & KITCHEN</p>
                   <p className="catPara1">
                     Discover 70+ Brands and upto 50% OFF
@@ -84,14 +84,14 @@ const Categories = () => {
               </div>
             </div>
             <div>
-              <Link>
+              <Link to={"/foodandgroceries"}>
                 <img
                   src="https://s3-alpha-sig.figma.com/img/7b60/667f/189b0614b4f86dd61a905ab30f105ffa?Expires=1699833600&Signature=O~y-h8Axkktz6m7DJZDWttSWIkHFv3tDzPSk0bROTYoGquIyrJvOdKfj-SJfKWx4kzuHs4kh-GtbReVCkW3Jf9OKS3tyBQXh086inSL6~e8AO-y64~fh9atJE0iPlU25RhH3REX~Z7epJpiaXHM-eUUE~zwVqC6RMSM6GGT7MI4ciJ-Ulwdvc~Gro9hfv7xsRWQ2tk0wKmtME37EhpBS6VI4OOTekHYSq7l77ZG2u336MjTXCao9P1Fuee0lLSjd1FY6gC0kBG~VFXX3xXLo8e2wBKCtePki8kTa7qwKQo6XztQgUkuSlRaSQK9wsSpZYud5js~Nms5xmr1X2cVOVA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
                   alt=""
                 />
               </Link>
               <div>
-                <Link>
+                <Link to={"/foodandgroceries"}>
                   <p className="catSubTitle">FOOD & GROCERIES</p>
                   <p className="catPara1">
                     Discover 70+ Brands and upto 50% OFF

@@ -63,13 +63,13 @@ const Navbar = () => {
               <Link to={"/categories"}>Category</Link>
             </p>
             <p>
-              <Link>Collections</Link>
+              <Link to={"/collections"}>Collections</Link>
             </p>
             <p>
-              <Link>Offers</Link>
+              <Link to={"/offers"}>Offers</Link>
             </p>
             <p>
-              <Link>Wishlist</Link>
+              <Link to={"/wishlist"}>Wishlist</Link>
             </p>
           </div>
         </div>
