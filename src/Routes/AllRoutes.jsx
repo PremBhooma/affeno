@@ -14,6 +14,8 @@ import Collections from "../Pages/Collections";
 import Wishlist from "../Pages/Wishlist";
 import Offers from "../Pages/Offers";
 import Details from "../Pages/Details";
+import ItemBuy from "../Pages/ItemBuy";
+import Payment from "../Pages/Payment";
 
 const AllRoutes = () => {
   return (
@@ -33,6 +35,8 @@ const AllRoutes = () => {
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/offers" element={<Offers />} />
         <Route path="/details" element={<Details />} />
+        <Route path="/itembuy" element={<ItemBuy />} />
+        <Route path="/payment" element={<Payment />} />
       </Routes>
     </div>
   );

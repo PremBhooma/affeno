@@ -1,0 +1,370 @@
+.paydetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 35px;
+  background: #eee;
+}
+
+.payimg > img {
+  width: 169px;
+  height: 188px;
+  border: 1px solid #fff;
+  object-fit: cover;
+}
+
+.payprd > p:nth-child(1) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.payp > p:nth-child(1) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payprd {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.payprd > div:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.payprd > div:nth-child(3) > p:nth-child(1) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payprd > div:nth-child(3) > p:nth-child(2) {
+  color: #ff5604;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.payprd > p:nth-child(4) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.payprd > p:nth-child(4) > span {
+  color: #000;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payshipadd {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.payshipadd > p:nth-child(1) {
+  color: #ff5604;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payshipadd > p:nth-child(3) {
+  color: #ff5604;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payshipadd > p:nth-child(2) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payshipadd > p:nth-child(4) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payshipadd > p:nth-child(4) > span {
+  color: #000;
+  font-size: 24px;
+}
+
+.payedit {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.payedit > p {
+  color: #ff5604;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#ccpay > p:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 33px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+#ccpay > p:nth-child(3) {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 33px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.paycards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.paycards > div > img {
+  width: 276px;
+  height: 129px;
+  object-fit: cover;
+}
+.paycards > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paycards > div > p {
+  color: #ff5604;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payrecused {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  margin: 70px 0;
+}
+
+.payrecused > p:nth-child(1) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payrecdetails {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.payrecdetails > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payrecdetails > div:nth-child(1) > img {
+  width: 152px;
+  height: 71px;
+  object-fit: cover;
+}
+
+.payrecdetails > div:nth-child(1) > p {
+  color: #4f4f4f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payrecdetails > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payrecdetails > div:nth-child(2) > p:nth-child(1) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payrecdetails > div:nth-child(2) > p:nth-child(2) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payrecdetails > div:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.payrecdetails > div:nth-child(3) > p:nth-child(1) {
+  color: #ff5604;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payfilldet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.payfilldet > p:nth-child(1) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payinput {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 90%;
+}
+
+.payinput > input {
+  padding: 15px;
+  border: 3px solid #4f4f4f;
+  color: #000;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.payinput > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.payinput > div > input {
+  padding: 15px;
+  border: 3px solid #4f4f4f;
+  color: #000;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 46%;
+}
+
+.payfilldet > div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.payfilldet > div:nth-child(3) > button:nth-child(1) {
+  padding: 15px 45px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  background-color: #ff5604;
+}
+
+.payfilldet > div:nth-child(3) > button:nth-child(2) {
+  padding: 15px 45px;
+  color: #ff5604;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 2px solid #ff5604;
+  background-color: white;
+}
