@@ -1,0 +1,490 @@
+.sellertlt > p {
+  color: #ff5604;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 60px 0;
+}
+
+#poster {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("https://s3-alpha-sig.figma.com/img/00ef/9ccb/62826735095a081a01026e2a9e14ab61?Expires=1699833600&Signature=LamOUHWD1OGCKx2AlVKqYiv50Qz7EcKiMkKPs5MTUcFvg1I7~RQzGLQOcpPfYmxyJXBzoXKlzVijirV82mjnw8KZR2RT2VZfCINbhY-jCZEoeytoEO4o4z95wKwO~XJXYryqiipcCoGrT25cg9EAvnhA1uEkdb1dQK-JCOV7FJuNUKQ3lek0RRoOGrmuyfS9MiMXWFFo8vLo3YXNAieRABF2~Nb8tuM~rXtiae0EzeHWfz-his-lZjI2kEE-CSf3IzmMkP8yKXBYVMnbqCR5ACcL4ijj3ibiadS7jwrEEl8Ay9SG5V5MPuTs9LhHkBLzss-JJgFr9oGcMD3BTHWtMQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),
+    lightgray -4.608px -111.735px / 100% 156.24%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+.sellerpos {
+  position: relative; /* Set the position to relative */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sellerpos > p:nth-child(1) {
+  position: absolute; /* Set the position to absolute */
+  top: 50%; /* Move the top edge to the vertical center */
+  left: 45%; /* Move the left edge to the horizontal center */
+  transform: translate(
+    -45%,
+    -50%
+  ); /* Center the text both vertically and horizontally */
+  text-align: center; /* Center the text within the p tag */
+  color: white; /* You can change the text color to match your design */
+
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160.688%; /* 43.075px */
+}
+
+.sellerInp {
+  display: flex;
+  flex-direction: row;
+}
+
+.sellerInp > div:nth-child(1) > input {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: absolute; /* Set the position to absolute */
+  top: 70%; /* Move the top edge to the vertical center */
+  left: 45%; /* Move the left edge to the horizontal center */
+  transform: translate(
+    -46%,
+    -50%
+  ); /* Center the text both vertically and horizontally */
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  border: 1px solid #fff;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  padding: 10px 15px;
+  width: 30%;
+  outline: none;
+}
+
+.sellerInp > div:nth-child(1) > input::placeholder {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sellerInp > button {
+  position: absolute; /* Set the position to absolute */
+  top: 70%; /* Move the top edge to the vertical center */
+  left: 65%; /* Move the left edge to the horizontal center */
+  transform: translate(
+    -89%,
+    -50%
+  ); /* Center the text both vertically and horizontally */
+  padding: 10px 25px;
+  border: 1px solid #fff;
+  background: #ff5604;
+}
+
+.sellersub > p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 60px 0;
+}
+
+/* Seller Says */
+
+#sellercarousel {
+  width: 50%;
+}
+
+#sellerpad {
+  text-align: left;
+  padding: 0px;
+}
+
+.sellersays {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.sellersays > img {
+  width: 145px;
+  height: 171px;
+  object-fit: cover;
+  border: 1px solid #000;
+}
+
+.sellerev {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 55%;
+}
+
+.sellerev > p:nth-child(1) {
+  color: #ff5604;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sellerev > p:nth-child(2) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sellerev > p:nth-child(3) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.lc {
+  margin: 60px 0;
+}
+
+/* Open Close Seller OC */
+
+.selleroc {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.sellerleft {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 30%;
+}
+
+.sellerright {
+  width: 70%;
+}
+
+.sellerright > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* left seller OC */
+
+.sellerleft > p:nth-child(1) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.sellerrod {
+  width: 360px;
+  height: 10px;
+  background: #d9d9d9;
+}
+
+.rodOne {
+  width: 120px;
+  background: orange;
+}
+
+.rodTwo {
+  width: 240px;
+  background: orange;
+}
+
+.rodThird {
+  width: 360px;
+  background: orange;
+}
+
+.leftp {
+  color: #000;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* right seller oc */
+
+.sellerright > div > p:nth-child(1) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sellerfourblocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.sellerfourblocks > div {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.sellerfourblocks > div > p:nth-child(1) {
+  color: #ff5604;
+  font-size: 45px;
+}
+
+.sellernb > p:nth-child(1) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.sellernb > p:nth-child(2) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sellerbenimg {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("https://s3-alpha-sig.figma.com/img/2352/9034/87d344ac1d8123dc8b17f14f22cd00fc?Expires=1699833600&Signature=G8TRCLg~4KayYlNnabEMU6hUXfeR298qVpQDE36eKdxU2KAhANar9Py9P~Ej29erL6dzkandzZz8BrygDn-ZDxyoelVlTipGMljffnnWoxZifOTI5vl2aVoKfWzM1Yh6LNpWv8vLqzs9nRONz8N~Am9Ic55jgUwdlUAJJTdQZyKN1ZqROPATQjAToMnv2YaZ8eDPPdAO1xa-qPmuuSTkC-kElpeiYjBaBF1tJHA7SNIhsWg9bP1SgC47dGlvAJF2upDjkFudBJEkvjD-iPhwXxM75RYHQjWmu3sywb~5A8IjgI5FurySMdW3oHK2cGvcO~k0h3SGauN4UJboCgjIlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),
+    lightgray -6.925px -22.239px / 100% 158.434% no-repeat;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 380px;
+  position: relative;
+}
+
+.sellerbenimg > svg {
+  position: absolute; /* Set the position to absolute */
+  top: 50%; /* Move the top edge to the vertical center */
+  left: 50%; /* Move the left edge to the horizontal center */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text both vertically and horizontally */
+}
+
+.css-1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.css-2 {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Shipping fees  */
+
+.sellershipfee > p {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#tbtpad > :not(caption) > * > * {
+  padding: 10px;
+  border: none;
+}
+
+/* FulFilment */
+
+.faqblock {
+  margin-bottom: 100px;
+}
+
+.fulflimentblock {
+  margin: 70px 0;
+}
+
+.fullfliment {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.fullfliment > div {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.fullfliment > div > img {
+  width: 151px;
+  height: 151px;
+  object-fit: cover;
+}
+
+.fullfilinnerbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fullfilinnerbox > p:nth-child(1) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fullfilinnerbox > p:nth-child(2) {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fullfilinnerbox > button {
+  background: #ff5604;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px;
+  border: none;
+  width: 50%;
+}
+
+.fulflimentcenter {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  margin: 62px auto;
+}
+
+.fulflimentcenter > img {
+  width: 151px;
+  height: 151px;
+  object-fit: cover;
+}
+
+/* FAQs */
+
+.faq-shadow {
+  padding: 5px;
+  margin-bottom: 25px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
+
+  color: #1d1d1d;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.faqtitle {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  box-shadow: none;
+  color: #1d1d1d;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.accordion-body {
+  width: 90%;
+  margin: 0 auto 25px auto;
+
+  color: #1d1d1d;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: none;
+}

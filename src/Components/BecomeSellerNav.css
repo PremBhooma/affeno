@@ -1,0 +1,64 @@
+.navmbt {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.sellerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 15px 0;
+  width: 95%;
+  margin: auto;
+}
+
+.sellerNav > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.sellerNav > div:nth-child(1) > img {
+  width: 76px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.sellerNav > div:nth-child(1) > p {
+  color: #4f4f4f;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sellerNav > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.sellerNav > div:nth-child(2) > button {
+  width: 240px;
+  padding: 8px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sellerNav > div:nth-child(2) > button:nth-child(1) {
+  border: 2px solid #ff5604;
+  color: #ff5604;
+  background-color: #fff;
+}
+
+.sellerNav > div:nth-child(2) > button:nth-child(2) {
+  background: #ff5604;
+  color: #fff;
+  border: 2px solid #ff5604;
+}

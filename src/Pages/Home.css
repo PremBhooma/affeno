@@ -61,11 +61,16 @@
   border: none;
 }
 
+.topNav > div:nth-child(1) > div:nth-child(2) > input::placeholder {
+  text-align: center;
+}
+
 .topNav > div:nth-child(1) > div:nth-child(2) > button {
   border-radius: 0px 39px 39px 0px;
   background: #ff5604;
-  padding: 5px;
+  padding: 5px 15px;
   border: none;
+  color: #fff;
 }
 
 .logoName {
@@ -517,4 +522,200 @@
   font-weight: 600;
   line-height: normal;
   margin-bottom: 80px;
+}
+
+/* Mobile Nav Some CSS Codes */
+.mobimg {
+  width: 55px;
+  height: 50px;
+}
+.mobprofile {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 15px 0;
+}
+.mobach > li > a {
+  color: rgba(79, 79, 79, 0.6);
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.mobinpbut > input {
+  border-radius: 39px 0px 0 39px;
+  background: #d9d9d9;
+  padding: 5px;
+  border: none;
+}
+
+.mobinpbut > input::placeholder {
+  text-align: center;
+}
+
+.mobinpbut > button {
+  border-radius: 0px 39px 39px 0px;
+  background: #ff5604;
+  padding: 5px 15px;
+  border: none;
+  color: #fff;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  /* navbar */
+  .desktopNav {
+    display: none;
+  }
+
+  .bannerImg {
+    height: 200px;
+  }
+
+  .salePoster > img {
+    height: 140px;
+    object-fit: fill;
+  }
+
+  .dualSalePoster > div > img {
+    height: 140px;
+    object-fit: fill;
+  }
+
+  .demandBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .beautyProductsBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .fashionBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footerBlock {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  /* navbar */
+  .desktopNav {
+    display: none;
+  }
+
+  .bannerImg {
+    height: 380px;
+  }
+
+  .demandBlock {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .demandBoxes > div {
+    height: 200px;
+  }
+
+  .salePoster > img {
+    height: 215px;
+  }
+
+  .beautyProductsBlock {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dualSalePoster > div > img {
+    height: 215px;
+  }
+
+  .fashionBlock {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footerBlock {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1439px) {
+  .mobNav {
+    display: none;
+  }
+
+  /* Navbar Desk */
+
+  .topNav {
+    gap: 30px;
+  }
+
+  .topNav > div:nth-child(1) {
+    width: 40%;
+    gap: 25px;
+  }
+
+  .topNav > div:nth-child(1) > img {
+    width: 65px;
+    height: 55px;
+  }
+
+  .topNav > div:nth-child(2) {
+    font-size: 17px;
+    width: 70%;
+    gap: 25px;
+  }
+
+  .bottomNav > div > p > a {
+    font-size: 20px;
+  }
+
+  /* Navbar Desk ENd */
+
+  .bannerImg {
+    height: 450px;
+  }
+
+  .beautyProductsBlock {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .beautyProductsBoxes > img {
+    width: 250px;
+    height: 220px;
+  }
+
+  .rating > div {
+    gap: 10px;
+  }
+
+  .rating {
+    gap: 15px;
+  }
+
+  .demandBoxes > div {
+    height: 200px;
+  }
+
+  .demandBoxes > div > p:nth-child(3) {
+    width: 100%;
+  }
+
+  .salePoster > img {
+    height: 290px;
+  }
+  .dualSalePoster > div > img {
+    height: 290px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .mobNav {
+    display: none;
+  }
 }
