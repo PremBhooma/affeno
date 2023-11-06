@@ -10,7 +10,7 @@
   object-fit: cover;
 }
 
-.catBoxes1 > div > div {
+.catBoxes1 > div > div:nth-child(2) {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -18,7 +18,7 @@
   padding: 25px 25px;
 }
 
-.catBoxes1 > div > div > a {
+.catBoxes1 > div > div:nth-child(2) > a {
   text-decoration: none;
   color: #fff;
   font-family: Roboto;
@@ -30,17 +30,18 @@
 /* CatBox 2 */
 
 .catBoxes2 {
-  display: flex;
-  /* grid-template-columns: repeat(3, 1fr);
-  place-items: center; */
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-content: center; */
+  /* align-items: center; */
   gap: 30px;
-  margin-top: 50px;
+  width: 66%;
+  margin: 50px auto 0 auto;
+  /* margin-top: 50px; */
 }
 
 .catBoxes2 > div > a > img {
-  width: 443px;
+  width: 100%;
   height: 380px;
   object-fit: cover;
 }
@@ -63,7 +64,7 @@
 }
 
 .catSubTitle {
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 600;
 }
 
@@ -77,3 +78,87 @@
   font-weight: 500;
   width: 90%;
 }
+
+/* Media Queries */
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .catBoxes1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .catBoxes1 > div > a > img {
+    height: 320px;
+  }
+
+  .catBoxes2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .catBoxes2 > div > a > img {
+    width: 100%;
+    height: 380px;
+  }
+  .catSubTitle {
+    font-size: 32px;
+  }
+  .catPara1 {
+    font-size: 22px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .catBoxes1 {
+    gap: 25px;
+  }
+  .catBoxes1 > div > a > img {
+    height: 250px;
+  }
+  .catSubTitle {
+    font-size: 20px;
+  }
+  .catPara {
+    font-size: 17px;
+  }
+  .catBoxes1 > div > div:nth-child(2) {
+    padding: 25px 16px;
+  }
+
+  .catBoxes2 > div > a > img {
+    height: 250px;
+  }
+
+  .catPara1 {
+    font-size: 17px;
+  }
+  .catBoxes2 {
+    width: 73%;
+  }
+  .catBoxes2 > div > div {
+    padding: 25px 16px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1439px) {
+  .catBoxes1 > div > a > img {
+    height: 320px;
+  }
+  .catBoxes2 {
+    width: 68%;
+  }
+  .catSubTitle {
+    font-size: 26px;
+  }
+  .catPara {
+    font-size: 21px;
+    font-weight: 500;
+  }
+
+  .catBoxes2 > div > div {
+    padding: 25px 16px;
+  }
+}
+
+/* @media all and (min-width: 1440px) {
+} */

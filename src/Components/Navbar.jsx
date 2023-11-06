@@ -77,7 +77,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <nav className="navbar navbar-expand-lg bg-body-tertiary mobNav">
+      <nav className="navbar navbar-expand-lg mobNav mobbs">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img

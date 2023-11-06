@@ -14,27 +14,48 @@
 .Singlebox {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   gap: 40px;
+  width: 100%;
 }
 
 .cartInnerLeftBox {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  gap: 60px;
+  width: 20%;
 }
-
 .cartInnerLeftBox > div:nth-child(1) > img {
-  width: 240px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
 }
 
-.cartInnerLeftBox > div:nth-child(2) {
+.cartInnerRightBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  width: 80%;
+}
+
+.cartInnerRightBox > div:nth-child(1) {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
+}
+
+.cartInnerRightBox > div:nth-child(1) > p:nth-child(2) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cartInnerRightBox > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .tandadd {
@@ -46,7 +67,7 @@
   line-height: normal;
 }
 
-.cartInnerLeftBox > div:nth-child(2) > p:nth-child(2) {
+.cartInnerRightBox > div:nth-child(2) > p:nth-child(2) {
   color: #000;
   font-family: Roboto;
   font-size: 32px;
@@ -82,14 +103,7 @@
   font-weight: 600;
   line-height: normal;
 }
-
-.cartInnerRightBox {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.cartInnerRightBox > div:nth-child(1) {
+.cartInnerRightBox > div:nth-child(2) > div:nth-child(1) {
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -101,7 +115,7 @@
   line-height: normal;
 }
 
-.cartInnerRightBox > div:nth-child(2) > button {
+.cartInnerRightBox > div:nth-child(2) > div:nth-child(2) > button {
   width: 100%;
   background: #ff5604;
   color: #fff;
@@ -130,3 +144,137 @@
   line-height: normal;
   margin: 50px 0;
 }
+
+.clcsvg > svg {
+  width: 90px;
+  height: 90px;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .cartBoxes {
+    gap: 45px;
+  }
+  .Singlebox {
+    flex-direction: column;
+  }
+
+  .cartInnerLeftBox {
+    width: 100%;
+  }
+
+  .cartInnerLeftBox > div:nth-child(1) > img {
+    height: 255px;
+  }
+
+  .cartInnerRightBox {
+    gap: 10px;
+    width: 100%;
+  }
+
+  .cartInnerRightBox > div:nth-child(1) {
+    width: 67%;
+    gap: 10px;
+  }
+
+  .tandadd {
+    font-size: 18px;
+  }
+
+  .ratingCart {
+    gap: 5px;
+  }
+
+  .ratingCart > div {
+    gap: 5px;
+  }
+  .ratingCart > div > p > i {
+    font-size: 20px;
+  }
+
+  .ratingCart > p:nth-child(2) {
+    font-size: 15px;
+  }
+
+  .cartInnerRightBox > div:nth-child(2) {
+    width: 33%;
+  }
+
+  .cartInnerRightBox > div:nth-child(2) > div:nth-child(1) {
+    gap: 5px;
+
+    font-size: 15px;
+  }
+
+  .clcsvg > svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .Singlebox {
+    gap: 25px;
+  }
+
+  .cartInnerLeftBox > div:nth-child(1) > img {
+    width: 100%;
+    height: 190px;
+  }
+
+  .cartInnerRightBox {
+    gap: 14px;
+  }
+
+  .cartInnerRightBox > div:nth-child(1) {
+    gap: 20px;
+  }
+
+  .ratingCart {
+    gap: 10px;
+  }
+
+  .ratingCart > div {
+    gap: 6px;
+  }
+
+  .ratingCart > div > p > i {
+    font-size: 26px;
+  }
+
+  .ratingCart > p:nth-child(2) {
+    font-size: 18px;
+  }
+
+  .clcsvg > svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cartInnerRightBox > div:nth-child(2) > div:nth-child(1) {
+    gap: 10px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1439px) {
+  .ratingCart {
+    gap: 15px;
+  }
+
+  .ratingCart > div {
+    gap: 10px;
+  }
+
+  .ratingCart > div > p > i {
+    font-size: 35px;
+  }
+  .clcsvg > svg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* @media all and (min-width: 1440px) {
+  
+} */

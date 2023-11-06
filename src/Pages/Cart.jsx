@@ -26,6 +26,9 @@ const Cart = () => {
                     alt=""
                   />
                 </div>
+              </div>
+              <div className="cartInnerRightBox">
+                {/* div 1 */}
                 <div>
                   <p className="tandadd">Casual Tshirt for Men</p>
                   <p>₹250</p>
@@ -51,16 +54,18 @@ const Cart = () => {
                   </div>
                   <p className="tandadd">ADDED ON 6 JULY</p>
                 </div>
-              </div>
-              <div className="cartInnerRightBox">
+
+                {/* div 2 */}
                 <div>
-                  <p>
-                    <i class="fa-solid fa-trash-can"></i>
-                  </p>
-                  <p>DELETE ITEM</p>
-                </div>
-                <div>
-                  <button>Buy Now</button>
+                  <div>
+                    <p>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </p>
+                    <p>DELETE ITEM</p>
+                  </div>
+                  <div>
+                    <button>Buy Now</button>
+                  </div>
                 </div>
               </div>
             </div>

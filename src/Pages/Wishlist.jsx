@@ -22,6 +22,9 @@ const Wishlist = () => {
                     alt=""
                   />
                 </div>
+              </div>
+              <div className="cartInnerRightBox">
+                {/* div 1 */}
                 <div>
                   <p className="tandadd">Casual Tshirt for Men</p>
                   <p>₹250</p>
@@ -47,34 +50,36 @@ const Wishlist = () => {
                   </div>
                   <p className="tandadd">ADDED ON 6 JULY</p>
                 </div>
-              </div>
-              <div className="cartInnerRightBox">
+
+                {/* div 2 */}
                 <div>
-                  <p>
-                    <i class="fa-solid fa-trash-can"></i>
-                  </p>
-                  <p>DELETE ITEM</p>
-                </div>
-                <div className="clcsvg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="90"
-                    height="90"
-                    viewBox="0 0 90 90"
-                    fill="none"
-                  >
-                    <path
-                      d="M54.7678 46.7678C55.7441 45.7915 55.7441 44.2085 54.7678 43.2322L38.8579 27.3223C37.8816 26.346 36.2986 26.346 35.3223 27.3223C34.346 28.2986 34.346 29.8816 35.3223 30.8579L49.4645 45L35.3223 59.1421C34.346 60.1184 34.346 61.7014 35.3223 62.6777C36.2986 63.654 37.8816 63.654 38.8579 62.6777L54.7678 46.7678ZM48 47.5L53 47.5L53 42.5L48 42.5L48 47.5Z"
-                      fill="black"
-                    />
-                    <circle
-                      cx="45"
-                      cy="45"
-                      r="43.5"
-                      stroke="black"
-                      stroke-width="3"
-                    />
-                  </svg>
+                  <div>
+                    <p>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </p>
+                    <p>DELETE ITEM</p>
+                  </div>
+                  <div className="clcsvg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="90"
+                      height="90"
+                      viewBox="0 0 90 90"
+                      fill="none"
+                    >
+                      <path
+                        d="M54.7678 46.7678C55.7441 45.7915 55.7441 44.2085 54.7678 43.2322L38.8579 27.3223C37.8816 26.346 36.2986 26.346 35.3223 27.3223C34.346 28.2986 34.346 29.8816 35.3223 30.8579L49.4645 45L35.3223 59.1421C34.346 60.1184 34.346 61.7014 35.3223 62.6777C36.2986 63.654 37.8816 63.654 38.8579 62.6777L54.7678 46.7678ZM48 47.5L53 47.5L53 42.5L48 42.5L48 47.5Z"
+                        fill="black"
+                      />
+                      <circle
+                        cx="45"
+                        cy="45"
+                        r="43.5"
+                        stroke="black"
+                        stroke-width="3"
+                      />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
@@ -89,6 +94,9 @@ const Wishlist = () => {
                     alt=""
                   />
                 </div>
+              </div>
+              <div className="cartInnerRightBox">
+                {/* div 1 */}
                 <div>
                   <p className="tandadd">Casual Tshirt for Men</p>
                   <p>₹250</p>
@@ -114,34 +122,36 @@ const Wishlist = () => {
                   </div>
                   <p className="tandadd">ADDED ON 6 JULY</p>
                 </div>
-              </div>
-              <div className="cartInnerRightBox">
+
+                {/* div 2 */}
                 <div>
-                  <p>
-                    <i class="fa-solid fa-trash-can"></i>
-                  </p>
-                  <p>DELETE ITEM</p>
-                </div>
-                <div className="clcsvg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="90"
-                    height="90"
-                    viewBox="0 0 90 90"
-                    fill="none"
-                  >
-                    <path
-                      d="M54.7678 46.7678C55.7441 45.7915 55.7441 44.2085 54.7678 43.2322L38.8579 27.3223C37.8816 26.346 36.2986 26.346 35.3223 27.3223C34.346 28.2986 34.346 29.8816 35.3223 30.8579L49.4645 45L35.3223 59.1421C34.346 60.1184 34.346 61.7014 35.3223 62.6777C36.2986 63.654 37.8816 63.654 38.8579 62.6777L54.7678 46.7678ZM48 47.5L53 47.5L53 42.5L48 42.5L48 47.5Z"
-                      fill="black"
-                    />
-                    <circle
-                      cx="45"
-                      cy="45"
-                      r="43.5"
-                      stroke="black"
-                      stroke-width="3"
-                    />
-                  </svg>
+                  <div>
+                    <p>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </p>
+                    <p>DELETE ITEM</p>
+                  </div>
+                  <div className="clcsvg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="90"
+                      height="90"
+                      viewBox="0 0 90 90"
+                      fill="none"
+                    >
+                      <path
+                        d="M54.7678 46.7678C55.7441 45.7915 55.7441 44.2085 54.7678 43.2322L38.8579 27.3223C37.8816 26.346 36.2986 26.346 35.3223 27.3223C34.346 28.2986 34.346 29.8816 35.3223 30.8579L49.4645 45L35.3223 59.1421C34.346 60.1184 34.346 61.7014 35.3223 62.6777C36.2986 63.654 37.8816 63.654 38.8579 62.6777L54.7678 46.7678ZM48 47.5L53 47.5L53 42.5L48 42.5L48 47.5Z"
+                        fill="black"
+                      />
+                      <circle
+                        cx="45"
+                        cy="45"
+                        r="43.5"
+                        stroke="black"
+                        stroke-width="3"
+                      />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
@@ -156,6 +166,9 @@ const Wishlist = () => {
                     alt=""
                   />
                 </div>
+              </div>
+              <div className="cartInnerRightBox">
+                {/* div 1 */}
                 <div>
                   <p className="tandadd">Casual Tshirt for Men</p>
                   <p>₹250</p>
@@ -181,34 +194,36 @@ const Wishlist = () => {
                   </div>
                   <p className="tandadd">ADDED ON 6 JULY</p>
                 </div>
-              </div>
-              <div className="cartInnerRightBox">
+
+                {/* div 2 */}
                 <div>
-                  <p>
-                    <i class="fa-solid fa-trash-can"></i>
-                  </p>
-                  <p>DELETE ITEM</p>
-                </div>
-                <div className="clcsvg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="90"
-                    height="90"
-                    viewBox="0 0 90 90"
-                    fill="none"
-                  >
-                    <path
-                      d="M54.7678 46.7678C55.7441 45.7915 55.7441 44.2085 54.7678 43.2322L38.8579 27.3223C37.8816 26.346 36.2986 26.346 35.3223 27.3223C34.346 28.2986 34.346 29.8816 35.3223 30.8579L49.4645 45L35.3223 59.1421C34.346 60.1184 34.346 61.7014 35.3223 62.6777C36.2986 63.654 37.8816 63.654 38.8579 62.6777L54.7678 46.7678ZM48 47.5L53 47.5L53 42.5L48 42.5L48 47.5Z"
-                      fill="black"
-                    />
-                    <circle
-                      cx="45"
-                      cy="45"
-                      r="43.5"
-                      stroke="black"
-                      stroke-width="3"
-                    />
-                  </svg>
+                  <div>
+                    <p>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </p>
+                    <p>DELETE ITEM</p>
+                  </div>
+                  <div className="clcsvg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="90"
+                      height="90"
+                      viewBox="0 0 90 90"
+                      fill="none"
+                    >
+                      <path
+                        d="M54.7678 46.7678C55.7441 45.7915 55.7441 44.2085 54.7678 43.2322L38.8579 27.3223C37.8816 26.346 36.2986 26.346 35.3223 27.3223C34.346 28.2986 34.346 29.8816 35.3223 30.8579L49.4645 45L35.3223 59.1421C34.346 60.1184 34.346 61.7014 35.3223 62.6777C36.2986 63.654 37.8816 63.654 38.8579 62.6777L54.7678 46.7678ZM48 47.5L53 47.5L53 42.5L48 42.5L48 47.5Z"
+                        fill="black"
+                      />
+                      <circle
+                        cx="45"
+                        cy="45"
+                        r="43.5"
+                        stroke="black"
+                        stroke-width="3"
+                      />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
