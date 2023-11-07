@@ -36,7 +36,6 @@ const About = () => {
             quam. Morbi vulputate elit sit amet leo dapibus maximus. Quisque
             tortor ipsum, mattis non enim eu, vestibulum volutpat turpis. Nulla
             lacinia tellus at molestie tincidunt. Aliquam ultricies lobortis
-            pretium.
           </p>
           <p className="abtTitle">Terms & Conditions</p>
           <p className="abtPara">
