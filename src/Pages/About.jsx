@@ -49,7 +49,7 @@ const About = () => {
             volutpat. Curabitur pretium sem ac odio sagittis scelerisque. Fusce
             semper tempus justo nec ultrices. Vestibulum ante ipsum primis in
             faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse
-            faucibus diam eget ex tempor, in bibendum tellus porttitor.lestie
+            faucibus diam eget ex tempor, in bibendum tellus porttitor.
             tincidunt. Aliquam ultricies lobortis pretium.
           </p>
           <p className="abtTitle">Privacy Policy</p>
